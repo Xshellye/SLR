@@ -1,0 +1,482 @@
+Namespace(arch='resnetcif110', batch_size=128, checkpoint=20, dataset='CIFAR10', epochs=200, lr=0.1, lr_decay=0.1, milestones=[100, 150], momentum=0.9, print_freq=5, resume=False, scheduler='steps', workers=4)
+Files already downloaded and verified
+Epoch 0 finished in 32.513s (avg.: 32.513s). Training for 32.5s.
+	LR: 0.1
+Epoch 1 finished in 32.197s (avg.: 32.355s). Training for 1m. 4.7s.
+	LR: 0.1
+Epoch 2 finished in 32.428s (avg.: 32.379s). Training for 1m. 37.1s.
+	LR: 0.1
+Epoch 3 finished in 32.475s (avg.: 32.403s). Training for 2m. 9.6s.
+	LR: 0.1
+Epoch 4 finished in 32.196s (avg.: 32.362s). Training for 2m. 41.8s.
+	LR: 0.1
+	train loss: 6.995912, accuracy: 0.6139
+	test  loss: 7.030519, accuracy: 0.6022
+Epoch 5 finished in 32.392s (avg.: 32.367s). Training for 3m. 26.7s.
+	LR: 0.1
+Epoch 6 finished in 32.303s (avg.: 32.358s). Training for 3m. 59.0s.
+	LR: 0.1
+Epoch 7 finished in 31.842s (avg.: 32.293s). Training for 4m. 30.9s.
+	LR: 0.1
+Epoch 8 finished in 32.278s (avg.: 32.292s). Training for 5m. 3.2s.
+	LR: 0.1
+Epoch 9 finished in 32.157s (avg.: 32.278s). Training for 5m. 35.3s.
+	LR: 0.1
+	train loss: 3.579763, accuracy: 0.7497
+	test  loss: 3.669299, accuracy: 0.7369
+Epoch 10 finished in 32.382s (avg.: 32.288s). Training for 6m. 20.0s.
+	LR: 0.1
+Epoch 11 finished in 32.299s (avg.: 32.289s). Training for 6m. 52.3s.
+	LR: 0.1
+Epoch 12 finished in 31.526s (avg.: 32.230s). Training for 7m. 23.9s.
+	LR: 0.1
+Epoch 13 finished in 32.151s (avg.: 32.224s). Training for 7m. 56.0s.
+	LR: 0.1
+Epoch 14 finished in 32.186s (avg.: 32.222s). Training for 8m. 28.2s.
+	LR: 0.1
+	train loss: 1.951964, accuracy: 0.8231
+	test  loss: 2.047505, accuracy: 0.8007
+Epoch 15 finished in 31.905s (avg.: 32.202s). Training for 9m. 12.3s.
+	LR: 0.1
+Epoch 16 finished in 32.148s (avg.: 32.199s). Training for 9m. 44.5s.
+	LR: 0.1
+Epoch 17 finished in 32.370s (avg.: 32.208s). Training for 10m. 16.8s.
+	LR: 0.1
+Epoch 18 finished in 32.464s (avg.: 32.222s). Training for 10m. 49.3s.
+	LR: 0.1
+Epoch 19 finished in 32.397s (avg.: 32.230s). Training for 11m. 21.7s.
+	LR: 0.1
+	train loss: 1.303658, accuracy: 0.8388
+	test  loss: 1.429223, accuracy: 0.8097
+Epoch 20 finished in 32.137s (avg.: 32.226s). Training for 12m. 6.4s.
+	LR: 0.1
+Epoch 21 finished in 32.200s (avg.: 32.225s). Training for 12m. 38.6s.
+	LR: 0.1
+Epoch 22 finished in 32.156s (avg.: 32.222s). Training for 13m. 10.8s.
+	LR: 0.1
+Epoch 23 finished in 32.431s (avg.: 32.231s). Training for 13m. 43.2s.
+	LR: 0.1
+Epoch 24 finished in 32.492s (avg.: 32.241s). Training for 14m. 15.7s.
+	LR: 0.1
+	train loss: 0.901674, accuracy: 0.8776
+	test  loss: 1.032258, accuracy: 0.8423
+Epoch 25 finished in 32.513s (avg.: 32.251s). Training for 15m. 0.5s.
+	LR: 0.1
+Epoch 26 finished in 32.337s (avg.: 32.255s). Training for 15m. 32.8s.
+	LR: 0.1
+Epoch 27 finished in 32.443s (avg.: 32.261s). Training for 16m. 5.2s.
+	LR: 0.1
+Epoch 28 finished in 32.349s (avg.: 32.264s). Training for 16m. 37.6s.
+	LR: 0.1
+Epoch 29 finished in 31.704s (avg.: 32.246s). Training for 17m. 9.3s.
+	LR: 0.1
+	train loss: 0.878389, accuracy: 0.8435
+	test  loss: 1.047105, accuracy: 0.8082
+Epoch 30 finished in 32.307s (avg.: 32.248s). Training for 17m. 53.7s.
+	LR: 0.1
+Epoch 31 finished in 32.453s (avg.: 32.254s). Training for 18m. 26.1s.
+	LR: 0.1
+Epoch 32 finished in 32.365s (avg.: 32.257s). Training for 18m. 58.5s.
+	LR: 0.1
+Epoch 33 finished in 32.334s (avg.: 32.260s). Training for 19m. 30.8s.
+	LR: 0.1
+Epoch 34 finished in 32.441s (avg.: 32.265s). Training for 20m. 3.3s.
+	LR: 0.1
+	train loss: 0.744318, accuracy: 0.8710
+	test  loss: 0.870109, accuracy: 0.8368
+Epoch 35 finished in 32.391s (avg.: 32.268s). Training for 20m. 48.2s.
+	LR: 0.1
+Epoch 36 finished in 32.446s (avg.: 32.273s). Training for 21m. 20.7s.
+	LR: 0.1
+Epoch 37 finished in 32.486s (avg.: 32.279s). Training for 21m. 53.1s.
+	LR: 0.1
+Epoch 38 finished in 32.409s (avg.: 32.282s). Training for 22m. 25.5s.
+	LR: 0.1
+Epoch 39 finished in 32.487s (avg.: 32.287s). Training for 22m. 58.0s.
+	LR: 0.1
+	train loss: 0.739828, accuracy: 0.8668
+	test  loss: 0.886948, accuracy: 0.8258
+Epoch 40 finished in 32.270s (avg.: 32.287s). Training for 23m. 42.9s.
+	LR: 0.1
+Epoch 41 finished in 32.239s (avg.: 32.286s). Training for 24m. 15.1s.
+	LR: 0.1
+Epoch 42 finished in 32.529s (avg.: 32.291s). Training for 24m. 47.6s.
+	LR: 0.1
+Epoch 43 finished in 32.464s (avg.: 32.295s). Training for 25m. 20.1s.
+	LR: 0.1
+Epoch 44 finished in 32.093s (avg.: 32.291s). Training for 25m. 52.2s.
+	LR: 0.1
+	train loss: 0.659528, accuracy: 0.8915
+	test  loss: 0.830075, accuracy: 0.8463
+Epoch 45 finished in 32.261s (avg.: 32.290s). Training for 26m. 36.8s.
+	LR: 0.1
+Epoch 46 finished in 32.522s (avg.: 32.295s). Training for 27m. 9.3s.
+	LR: 0.1
+Epoch 47 finished in 32.403s (avg.: 32.297s). Training for 27m. 41.8s.
+	LR: 0.1
+Epoch 48 finished in 32.143s (avg.: 32.294s). Training for 28m. 13.9s.
+	LR: 0.1
+Epoch 49 finished in 31.963s (avg.: 32.288s). Training for 28m. 45.9s.
+	LR: 0.1
+	train loss: 0.717090, accuracy: 0.8761
+	test  loss: 0.888020, accuracy: 0.8331
+Epoch 50 finished in 32.395s (avg.: 32.290s). Training for 29m. 30.6s.
+	LR: 0.1
+Epoch 51 finished in 32.392s (avg.: 32.292s). Training for 30m. 3.0s.
+	LR: 0.1
+Epoch 52 finished in 32.438s (avg.: 32.294s). Training for 30m. 35.4s.
+	LR: 0.1
+Epoch 53 finished in 32.347s (avg.: 32.295s). Training for 31m. 7.7s.
+	LR: 0.1
+Epoch 54 finished in 32.390s (avg.: 32.297s). Training for 31m. 40.1s.
+	LR: 0.1
+	train loss: 0.635871, accuracy: 0.8975
+	test  loss: 0.776955, accuracy: 0.8564
+Epoch 55 finished in 32.403s (avg.: 32.299s). Training for 32m. 24.8s.
+	LR: 0.1
+Epoch 56 finished in 32.195s (avg.: 32.297s). Training for 32m. 57.0s.
+	LR: 0.1
+Epoch 57 finished in 32.336s (avg.: 32.298s). Training for 33m. 29.3s.
+	LR: 0.1
+Epoch 58 finished in 32.430s (avg.: 32.300s). Training for 34m. 1.7s.
+	LR: 0.1
+Epoch 59 finished in 32.376s (avg.: 32.301s). Training for 34m. 34.1s.
+	LR: 0.1
+	train loss: 0.733580, accuracy: 0.8695
+	test  loss: 0.899954, accuracy: 0.8302
+Epoch 60 finished in 32.385s (avg.: 32.303s). Training for 35m. 18.9s.
+	LR: 0.1
+Epoch 61 finished in 32.363s (avg.: 32.304s). Training for 35m. 51.2s.
+	LR: 0.1
+Epoch 62 finished in 32.494s (avg.: 32.307s). Training for 36m. 23.7s.
+	LR: 0.1
+Epoch 63 finished in 32.393s (avg.: 32.308s). Training for 36m. 56.1s.
+	LR: 0.1
+Epoch 64 finished in 32.298s (avg.: 32.308s). Training for 37m. 28.4s.
+	LR: 0.1
+	train loss: 0.635529, accuracy: 0.9002
+	test  loss: 0.815769, accuracy: 0.8578
+Epoch 65 finished in 32.318s (avg.: 32.308s). Training for 38m. 13.1s.
+	LR: 0.1
+Epoch 66 finished in 31.949s (avg.: 32.303s). Training for 38m. 45.0s.
+	LR: 0.1
+Epoch 67 finished in 32.137s (avg.: 32.300s). Training for 39m. 17.2s.
+	LR: 0.1
+Epoch 68 finished in 32.233s (avg.: 32.299s). Training for 39m. 49.4s.
+	LR: 0.1
+Epoch 69 finished in 31.860s (avg.: 32.293s). Training for 40m. 21.3s.
+	LR: 0.1
+	train loss: 0.627754, accuracy: 0.9039
+	test  loss: 0.813821, accuracy: 0.8533
+Epoch 70 finished in 32.195s (avg.: 32.292s). Training for 41m. 5.8s.
+	LR: 0.1
+Epoch 71 finished in 32.359s (avg.: 32.293s). Training for 41m. 38.1s.
+	LR: 0.1
+Epoch 72 finished in 32.465s (avg.: 32.295s). Training for 42m. 10.6s.
+	LR: 0.1
+Epoch 73 finished in 32.056s (avg.: 32.292s). Training for 42m. 42.7s.
+	LR: 0.1
+Epoch 74 finished in 32.496s (avg.: 32.294s). Training for 43m. 15.2s.
+	LR: 0.1
+	train loss: 0.648017, accuracy: 0.8961
+	test  loss: 0.831436, accuracy: 0.8554
+Epoch 75 finished in 32.400s (avg.: 32.296s). Training for 43m. 59.8s.
+	LR: 0.1
+Epoch 76 finished in 32.141s (avg.: 32.294s). Training for 44m. 31.9s.
+	LR: 0.1
+Epoch 77 finished in 32.301s (avg.: 32.294s). Training for 45m. 4.2s.
+	LR: 0.1
+Epoch 78 finished in 32.346s (avg.: 32.295s). Training for 45m. 36.6s.
+	LR: 0.1
+Epoch 79 finished in 32.443s (avg.: 32.296s). Training for 46m. 9.0s.
+	LR: 0.1
+	train loss: 0.590304, accuracy: 0.9193
+	test  loss: 0.752651, accuracy: 0.8744
+Epoch 80 finished in 31.914s (avg.: 32.292s). Training for 46m. 53.5s.
+	LR: 0.1
+Epoch 81 finished in 32.391s (avg.: 32.293s). Training for 47m. 25.9s.
+	LR: 0.1
+Epoch 82 finished in 32.332s (avg.: 32.293s). Training for 47m. 58.2s.
+	LR: 0.1
+Epoch 83 finished in 32.313s (avg.: 32.294s). Training for 48m. 30.6s.
+	LR: 0.1
+Epoch 84 finished in 32.221s (avg.: 32.293s). Training for 49m. 2.8s.
+	LR: 0.1
+	train loss: 0.641233, accuracy: 0.9022
+	test  loss: 0.829849, accuracy: 0.8568
+Epoch 85 finished in 32.379s (avg.: 32.294s). Training for 49m. 47.3s.
+	LR: 0.1
+Epoch 86 finished in 32.253s (avg.: 32.293s). Training for 50m. 19.6s.
+	LR: 0.1
+Epoch 87 finished in 32.353s (avg.: 32.294s). Training for 50m. 52.0s.
+	LR: 0.1
+Epoch 88 finished in 32.359s (avg.: 32.295s). Training for 51m. 24.3s.
+	LR: 0.1
+Epoch 89 finished in 32.408s (avg.: 32.296s). Training for 51m. 56.7s.
+	LR: 0.1
+	train loss: 0.633204, accuracy: 0.9050
+	test  loss: 0.827259, accuracy: 0.8534
+Epoch 90 finished in 32.258s (avg.: 32.296s). Training for 52m. 41.1s.
+	LR: 0.1
+Epoch 91 finished in 32.256s (avg.: 32.295s). Training for 53m. 13.4s.
+	LR: 0.1
+Epoch 92 finished in 31.874s (avg.: 32.291s). Training for 53m. 45.3s.
+	LR: 0.1
+Epoch 93 finished in 32.402s (avg.: 32.292s). Training for 54m. 17.7s.
+	LR: 0.1
+Epoch 94 finished in 31.982s (avg.: 32.288s). Training for 54m. 49.6s.
+	LR: 0.1
+	train loss: 0.593717, accuracy: 0.9177
+	test  loss: 0.766668, accuracy: 0.8673
+Epoch 95 finished in 32.399s (avg.: 32.290s). Training for 55m. 34.2s.
+	LR: 0.1
+Epoch 96 finished in 32.523s (avg.: 32.292s). Training for 56m. 6.7s.
+	LR: 0.1
+Epoch 97 finished in 32.411s (avg.: 32.293s). Training for 56m. 39.2s.
+	LR: 0.1
+Epoch 98 finished in 32.504s (avg.: 32.295s). Training for 57m. 11.7s.
+	LR: 0.1
+Epoch 99 finished in 32.461s (avg.: 32.297s). Training for 57m. 44.1s.
+	LR: 0.1
+	train loss: 0.595328, accuracy: 0.9186
+	test  loss: 0.757039, accuracy: 0.8745
+Epoch 100 finished in 32.034s (avg.: 32.294s). Training for 58m. 28.6s.
+	LR: 0.001
+Epoch 101 finished in 32.394s (avg.: 32.295s). Training for 59m. 1.0s.
+	LR: 0.01
+Epoch 102 finished in 32.393s (avg.: 32.296s). Training for 59m. 33.4s.
+	LR: 0.01
+Epoch 103 finished in 32.410s (avg.: 32.297s). Training for 1h. 5.8s.
+	LR: 0.01
+Epoch 104 finished in 32.405s (avg.: 32.298s). Training for 1h. 38.3s.
+	LR: 0.01
+	train loss: 0.370538, accuracy: 0.9898
+	test  loss: 0.596775, accuracy: 0.9290
+Epoch 105 finished in 32.404s (avg.: 32.299s). Training for 1h. 1m. 23.0s.
+	LR: 0.01
+Epoch 106 finished in 32.393s (avg.: 32.300s). Training for 1h. 1m. 55.4s.
+	LR: 0.01
+Epoch 107 finished in 32.470s (avg.: 32.302s). Training for 1h. 2m. 27.8s.
+	LR: 0.01
+Epoch 108 finished in 32.412s (avg.: 32.303s). Training for 1h. 3m. 0.2s.
+	LR: 0.01
+Epoch 109 finished in 32.157s (avg.: 32.302s). Training for 1h. 3m. 32.4s.
+	LR: 0.01
+	train loss: 0.334667, accuracy: 0.9943
+	test  loss: 0.599684, accuracy: 0.9299
+Epoch 110 finished in 32.168s (avg.: 32.300s). Training for 1h. 4m. 16.7s.
+	LR: 0.01
+Epoch 111 finished in 32.007s (avg.: 32.298s). Training for 1h. 4m. 48.7s.
+	LR: 0.01
+Epoch 112 finished in 32.415s (avg.: 32.299s). Training for 1h. 5m. 21.2s.
+	LR: 0.01
+Epoch 113 finished in 32.583s (avg.: 32.301s). Training for 1h. 5m. 53.7s.
+	LR: 0.01
+Epoch 114 finished in 32.405s (avg.: 32.302s). Training for 1h. 6m. 26.2s.
+	LR: 0.01
+	train loss: 0.307362, accuracy: 0.9963
+	test  loss: 0.599381, accuracy: 0.9290
+Epoch 115 finished in 32.409s (avg.: 32.303s). Training for 1h. 7m. 11.1s.
+	LR: 0.01
+Epoch 116 finished in 32.450s (avg.: 32.304s). Training for 1h. 7m. 43.5s.
+	LR: 0.01
+Epoch 117 finished in 32.444s (avg.: 32.306s). Training for 1h. 8m. 16.0s.
+	LR: 0.01
+Epoch 118 finished in 31.997s (avg.: 32.303s). Training for 1h. 8m. 48.0s.
+	LR: 0.01
+Epoch 119 finished in 32.305s (avg.: 32.303s). Training for 1h. 9m. 20.3s.
+	LR: 0.01
+	train loss: 0.285697, accuracy: 0.9970
+	test  loss: 0.602550, accuracy: 0.9293
+Epoch 120 finished in 32.313s (avg.: 32.303s). Training for 1h. 10m. 5.0s.
+	LR: 0.01
+Epoch 121 finished in 32.216s (avg.: 32.302s). Training for 1h. 10m. 37.3s.
+	LR: 0.01
+Epoch 122 finished in 32.380s (avg.: 32.303s). Training for 1h. 11m. 9.6s.
+	LR: 0.01
+Epoch 123 finished in 32.245s (avg.: 32.303s). Training for 1h. 11m. 41.9s.
+	LR: 0.01
+Epoch 124 finished in 32.183s (avg.: 32.302s). Training for 1h. 12m. 14.1s.
+	LR: 0.01
+	train loss: 0.264967, accuracy: 0.9982
+	test  loss: 0.588931, accuracy: 0.9290
+Epoch 125 finished in 32.211s (avg.: 32.301s). Training for 1h. 12m. 58.5s.
+	LR: 0.01
+Epoch 126 finished in 32.591s (avg.: 32.303s). Training for 1h. 13m. 31.1s.
+	LR: 0.01
+Epoch 127 finished in 32.454s (avg.: 32.304s). Training for 1h. 14m. 3.5s.
+	LR: 0.01
+Epoch 128 finished in 32.512s (avg.: 32.306s). Training for 1h. 14m. 36.0s.
+	LR: 0.01
+Epoch 129 finished in 32.528s (avg.: 32.308s). Training for 1h. 15m. 8.6s.
+	LR: 0.01
+	train loss: 0.249718, accuracy: 0.9975
+	test  loss: 0.596184, accuracy: 0.9278
+Epoch 130 finished in 31.965s (avg.: 32.305s). Training for 1h. 15m. 52.9s.
+	LR: 0.01
+Epoch 131 finished in 32.270s (avg.: 32.305s). Training for 1h. 16m. 25.2s.
+	LR: 0.01
+Epoch 132 finished in 32.547s (avg.: 32.307s). Training for 1h. 16m. 57.8s.
+	LR: 0.01
+Epoch 133 finished in 32.449s (avg.: 32.308s). Training for 1h. 17m. 30.2s.
+	LR: 0.01
+Epoch 134 finished in 32.029s (avg.: 32.306s). Training for 1h. 18m. 2.2s.
+	LR: 0.01
+	train loss: 0.234590, accuracy: 0.9971
+	test  loss: 0.585685, accuracy: 0.9265
+Epoch 135 finished in 32.375s (avg.: 32.306s). Training for 1h. 18m. 46.9s.
+	LR: 0.01
+Epoch 136 finished in 32.509s (avg.: 32.308s). Training for 1h. 19m. 19.4s.
+	LR: 0.01
+Epoch 137 finished in 32.512s (avg.: 32.309s). Training for 1h. 19m. 52.0s.
+	LR: 0.01
+Epoch 138 finished in 32.401s (avg.: 32.310s). Training for 1h. 20m. 24.4s.
+	LR: 0.01
+Epoch 139 finished in 32.384s (avg.: 32.310s). Training for 1h. 20m. 56.7s.
+	LR: 0.01
+	train loss: 0.221059, accuracy: 0.9971
+	test  loss: 0.573768, accuracy: 0.9237
+Epoch 140 finished in 32.455s (avg.: 32.311s). Training for 1h. 21m. 41.7s.
+	LR: 0.01
+Epoch 141 finished in 32.391s (avg.: 32.312s). Training for 1h. 22m. 14.0s.
+	LR: 0.01
+Epoch 142 finished in 31.981s (avg.: 32.310s). Training for 1h. 22m. 46.0s.
+	LR: 0.01
+Epoch 143 finished in 32.454s (avg.: 32.311s). Training for 1h. 23m. 18.5s.
+	LR: 0.01
+Epoch 144 finished in 32.122s (avg.: 32.309s). Training for 1h. 23m. 50.6s.
+	LR: 0.01
+	train loss: 0.207383, accuracy: 0.9978
+	test  loss: 0.562709, accuracy: 0.9250
+Epoch 145 finished in 32.219s (avg.: 32.309s). Training for 1h. 24m. 35.1s.
+	LR: 0.01
+Epoch 146 finished in 32.247s (avg.: 32.308s). Training for 1h. 25m. 7.3s.
+	LR: 0.01
+Epoch 147 finished in 32.271s (avg.: 32.308s). Training for 1h. 25m. 39.6s.
+	LR: 0.01
+Epoch 148 finished in 32.385s (avg.: 32.308s). Training for 1h. 26m. 12.0s.
+	LR: 0.01
+Epoch 149 finished in 32.308s (avg.: 32.308s). Training for 1h. 26m. 44.3s.
+	LR: 0.01
+	train loss: 0.198996, accuracy: 0.9969
+	test  loss: 0.565354, accuracy: 0.9242
+Epoch 150 finished in 32.398s (avg.: 32.309s). Training for 1h. 27m. 29.1s.
+	LR: 0.0001
+Epoch 151 finished in 32.209s (avg.: 32.308s). Training for 1h. 28m. 1.3s.
+	LR: 0.001
+Epoch 152 finished in 32.209s (avg.: 32.308s). Training for 1h. 28m. 33.6s.
+	LR: 0.001
+Epoch 153 finished in 32.325s (avg.: 32.308s). Training for 1h. 29m. 5.9s.
+	LR: 0.001
+Epoch 154 finished in 32.297s (avg.: 32.308s). Training for 1h. 29m. 38.2s.
+	LR: 0.001
+	train loss: 0.190487, accuracy: 0.9993
+	test  loss: 0.527883, accuracy: 0.9323
+Epoch 155 finished in 32.375s (avg.: 32.308s). Training for 1h. 30m. 22.8s.
+	LR: 0.001
+Epoch 156 finished in 32.238s (avg.: 32.308s). Training for 1h. 30m. 55.0s.
+	LR: 0.001
+Epoch 157 finished in 31.937s (avg.: 32.305s). Training for 1h. 31m. 27.0s.
+	LR: 0.001
+Epoch 158 finished in 32.172s (avg.: 32.305s). Training for 1h. 31m. 59.2s.
+	LR: 0.001
+Epoch 159 finished in 32.245s (avg.: 32.304s). Training for 1h. 32m. 31.4s.
+	LR: 0.001
+	train loss: 0.188180, accuracy: 0.9996
+	test  loss: 0.530181, accuracy: 0.9324
+Epoch 160 finished in 31.836s (avg.: 32.301s). Training for 1h. 33m. 15.8s.
+	LR: 0.001
+Epoch 161 finished in 32.222s (avg.: 32.301s). Training for 1h. 33m. 48.1s.
+	LR: 0.001
+Epoch 162 finished in 32.311s (avg.: 32.301s). Training for 1h. 34m. 20.4s.
+	LR: 0.001
+Epoch 163 finished in 32.204s (avg.: 32.300s). Training for 1h. 34m. 52.6s.
+	LR: 0.001
+Epoch 164 finished in 32.359s (avg.: 32.301s). Training for 1h. 35m. 24.9s.
+	LR: 0.001
+	train loss: 0.186371, accuracy: 0.9997
+	test  loss: 0.529354, accuracy: 0.9326
+Epoch 165 finished in 32.404s (avg.: 32.301s). Training for 1h. 36m. 9.7s.
+	LR: 0.001
+Epoch 166 finished in 31.768s (avg.: 32.298s). Training for 1h. 36m. 41.4s.
+	LR: 0.001
+Epoch 167 finished in 32.406s (avg.: 32.299s). Training for 1h. 37m. 13.8s.
+	LR: 0.001
+Epoch 168 finished in 32.309s (avg.: 32.299s). Training for 1h. 37m. 46.2s.
+	LR: 0.001
+Epoch 169 finished in 32.271s (avg.: 32.299s). Training for 1h. 38m. 18.4s.
+	LR: 0.001
+	train loss: 0.184760, accuracy: 0.9998
+	test  loss: 0.525023, accuracy: 0.9337
+Epoch 170 finished in 32.277s (avg.: 32.298s). Training for 1h. 39m. 3.0s.
+	LR: 0.001
+Epoch 171 finished in 32.256s (avg.: 32.298s). Training for 1h. 39m. 35.2s.
+	LR: 0.001
+Epoch 172 finished in 31.902s (avg.: 32.296s). Training for 1h. 40m. 7.1s.
+	LR: 0.001
+Epoch 173 finished in 32.543s (avg.: 32.297s). Training for 1h. 40m. 39.7s.
+	LR: 0.001
+Epoch 174 finished in 32.499s (avg.: 32.299s). Training for 1h. 41m. 12.2s.
+	LR: 0.001
+	train loss: 0.183178, accuracy: 0.9998
+	test  loss: 0.525968, accuracy: 0.9329
+Epoch 175 finished in 32.324s (avg.: 32.299s). Training for 1h. 41m. 56.6s.
+	LR: 0.001
+Epoch 176 finished in 32.355s (avg.: 32.299s). Training for 1h. 42m. 29.0s.
+	LR: 0.001
+Epoch 177 finished in 32.395s (avg.: 32.300s). Training for 1h. 43m. 1.4s.
+	LR: 0.001
+Epoch 178 finished in 32.497s (avg.: 32.301s). Training for 1h. 43m. 33.9s.
+	LR: 0.001
+Epoch 179 finished in 32.367s (avg.: 32.301s). Training for 1h. 44m. 6.2s.
+	LR: 0.001
+	train loss: 0.181892, accuracy: 0.9999
+	test  loss: 0.526653, accuracy: 0.9328
+Epoch 180 finished in 32.328s (avg.: 32.301s). Training for 1h. 44m. 50.9s.
+	LR: 0.001
+Epoch 181 finished in 32.275s (avg.: 32.301s). Training for 1h. 45m. 23.2s.
+	LR: 0.001
+Epoch 182 finished in 32.169s (avg.: 32.300s). Training for 1h. 45m. 55.4s.
+	LR: 0.001
+Epoch 183 finished in 32.401s (avg.: 32.301s). Training for 1h. 46m. 27.8s.
+	LR: 0.001
+Epoch 184 finished in 32.410s (avg.: 32.301s). Training for 1h. 47m. 0.2s.
+	LR: 0.001
+	train loss: 0.180412, accuracy: 0.9999
+	test  loss: 0.524012, accuracy: 0.9329
+Epoch 185 finished in 32.540s (avg.: 32.303s). Training for 1h. 47m. 44.8s.
+	LR: 0.001
+Epoch 186 finished in 32.425s (avg.: 32.303s). Training for 1h. 48m. 17.3s.
+	LR: 0.001
+Epoch 187 finished in 32.393s (avg.: 32.304s). Training for 1h. 48m. 49.7s.
+	LR: 0.001
+Epoch 188 finished in 32.184s (avg.: 32.303s). Training for 1h. 49m. 21.8s.
+	LR: 0.001
+Epoch 189 finished in 32.047s (avg.: 32.302s). Training for 1h. 49m. 53.9s.
+	LR: 0.001
+	train loss: 0.179090, accuracy: 0.9998
+	test  loss: 0.525362, accuracy: 0.9328
+Epoch 190 finished in 32.470s (avg.: 32.303s). Training for 1h. 50m. 38.6s.
+	LR: 0.001
+Epoch 191 finished in 32.494s (avg.: 32.304s). Training for 1h. 51m. 11.0s.
+	LR: 0.001
+Epoch 192 finished in 32.447s (avg.: 32.304s). Training for 1h. 51m. 43.5s.
+	LR: 0.001
+Epoch 193 finished in 31.748s (avg.: 32.302s). Training for 1h. 52m. 15.2s.
+	LR: 0.001
+Epoch 194 finished in 32.288s (avg.: 32.302s). Training for 1h. 52m. 47.5s.
+	LR: 0.001
+	train loss: 0.177746, accuracy: 0.9999
+	test  loss: 0.519187, accuracy: 0.9343
+Epoch 195 finished in 32.577s (avg.: 32.303s). Training for 1h. 53m. 32.4s.
+	LR: 0.001
+Epoch 196 finished in 32.387s (avg.: 32.303s). Training for 1h. 54m. 4.8s.
+	LR: 0.001
+Epoch 197 finished in 32.406s (avg.: 32.304s). Training for 1h. 54m. 37.2s.
+	LR: 0.001
+Epoch 198 finished in 32.138s (avg.: 32.303s). Training for 1h. 55m. 9.4s.
+	LR: 0.001
+Epoch 199 finished in 31.779s (avg.: 32.300s). Training for 1h. 55m. 41.2s.
+	LR: 0.001
+	train loss: 0.176391, accuracy: 0.9999
+	test  loss: 0.524464, accuracy: 0.9338
